@@ -30,6 +30,14 @@ public class App1a6 {
             int codigo = myObj.nextInt();
             int resultado = Somatorios.main(numerosX, numerosY, codigo);
             System.out.printf("O resultado é %d", resultado);
+            // 9. Comparação CDBs:
+            System.out.println("Insira valor da selic [exemplo:6,75]");
+            double selic = myObj.nextDouble();
+            System.out.println("Insira valor do capital");
+            double capital = myObj.nextDouble();
+            ComparadorCDB.main(selic, capital);
+
+
 
 
         }
