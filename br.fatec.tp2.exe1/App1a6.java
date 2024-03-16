@@ -23,6 +23,15 @@ public class App1a6 {
             SalarioLiquido calculadora = new SalarioLiquido();
             double salario = myObj.nextDouble();
             calculadora.calc(salario);
+            // 8. Operações em amostras
+            int[] numerosX = {2,7,4,3,2};
+            int[] numerosY = {1,2,3,6,5};
+            System.out.println("Insira código da operação(1 a 3)");
+            int codigo = myObj.nextInt();
+            int resultado = Somatorios.main(numerosX, numerosY, codigo);
+            System.out.printf("O resultado é %d", resultado);
+
+
         }
     }
 }
