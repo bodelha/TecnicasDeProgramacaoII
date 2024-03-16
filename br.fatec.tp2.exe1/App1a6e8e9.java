@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class App1a6 {
+public class App1a6e8e9 {
 
     public static void main(String[] args) {
         try (Scanner myObj = new Scanner(System.in)) {
