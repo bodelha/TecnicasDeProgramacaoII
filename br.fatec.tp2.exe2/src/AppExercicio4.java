@@ -18,7 +18,7 @@ public class AppExercicio4 {
         System.out.println(contarOcorrencias(vetor, valorReferencia));
     }
 
-    private static Vector<Integer> gerarVetorDeInteiros(int quantidade) {
+    public static Vector<Integer> gerarVetorDeInteiros(int quantidade) {
         Vector<Integer> vetorDeInteiros = new Vector<Integer>();
         for (int i = 0; i < quantidade; i++) {
             int inteiro = random.nextInt(quantidade * 10);
