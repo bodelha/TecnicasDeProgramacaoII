@@ -13,9 +13,9 @@ public class AppExercicio8 {
         int[][] matriz = new int[linhas][colunas];
         for (int i = 0; i < linhas; i++) {
             for (int j = 0; j < colunas; j++) {
-                int item = random.nextInt(9);
+                int item = random.nextInt(99);
                 matriz[i][j] = item;
-                System.out.print(item + "  ");
+                System.out.printf("%2d   ", item);
             }
             System.out.println();
         }
